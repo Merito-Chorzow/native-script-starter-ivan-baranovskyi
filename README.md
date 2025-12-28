@@ -26,3 +26,13 @@ Zbuduj podstawową aplikację w **NativeScript używając framework Angular**, k
 - [ ] Integracja z **API** (GET/POST).
 - [ ] Walidacja formularza + podstawowa obsługa błędów.
 - [ ] Aktualizacja `README.md`, zrzuty ekranów, min. 3 commity.
+
+Zrzuty ekranu:
+
+1.Uruchomienia na emulatorze
+
+2.Dodanie produktu
+![alt text](image.png)
+
+3.Natywna funkcja "zrob zdjęcia' 
+![alt text](image-1.png)

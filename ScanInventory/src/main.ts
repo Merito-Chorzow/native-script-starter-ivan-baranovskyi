@@ -6,7 +6,7 @@ import {
 } from '@nativescript/angular';
 import { provideZonelessChangeDetection } from '@angular/core';
 import { withInterceptorsFromDi } from '@angular/common/http';
-import { routes } from './app/app.routes';
+import { routes } from './app/app-routing.module';
 import { AppComponent } from './app/app.component';
 
 runNativeScriptAngularApp({

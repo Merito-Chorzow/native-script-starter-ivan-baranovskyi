@@ -1,0 +1,12 @@
+<ActionBar title="ScanInventory"></ActionBar>
+
+<GridLayout rows="*, auto">
+  <ListView [items]="products" row="0" textField="name" detailTextField="code" class="list-group">
+  </ListView>
+
+  <StackLayout row="0" verticalAlignment="center" horizontalAlignment="center" *ngIf="products?.length === 0">
+    <Label text="Список порожній" color="gray"></Label>
+  </StackLayout>
+
+  <Button text="+ ДОДАТИ ТОВАР" (tap)="onAddTap()" row="1" class="btn btn-primary" m="10" height="60"></Button>
+</GridLayout>
