@@ -36,3 +36,4 @@ Zrzuty ekranu:
 
 3.Natywna funkcja "zrob zdjęcia' 
 ![alt text](image-1.png)
+![alt text](image-2.png)
