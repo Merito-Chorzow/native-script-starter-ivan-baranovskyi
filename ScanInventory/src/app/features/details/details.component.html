@@ -1,14 +1,14 @@
-<ActionBar title="Деталі товару">
-  <NavigationButton text="Назад" android.systemIcon="ic_menu_back"></NavigationButton>
+<ActionBar title="Item details">
+  <NavigationButton text="Back" android.systemIcon="ic_menu_back"></NavigationButton>
 </ActionBar>
 
 <ScrollView>
   <StackLayout p="20">
     <Image [src]="product?.image" width="200" height="200" stretch="aspectFit" backgroundColor="#eee"></Image>
     <Label [text]="product?.name" fontSize="24" fontWeight="bold" mt="10"></Label>
-    <Label [text]="'Код: ' + product?.code" fontSize="16" color="gray"></Label>
+    <Label [text]="'Code: ' + product?.code" fontSize="16" color="gray"></Label>
     <Label [text]="product?.description" mt="15" textWrap="true"></Label>
 
-    <Button text="ВИДАТИ ЗІ СКЛАДУ" (tap)="onDelete()" class="btn btn-outline" color="red" mt="20"></Button>
+    <Button text="REMOVE FROM INVENTORY" (tap)="onDelete()" class="btn btn-outline" color="red" mt="20"></Button>
   </StackLayout>
 </ScrollView>
